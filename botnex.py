@@ -4,7 +4,7 @@ import random
 from web3 import Web3
 
 # Konfigurasi RPC Nexus
-NEXUS_RPC = "https://rpc.nexus.xyz"
+NEXUS_RPC = "https://nexus.rpc.caldera.xyz"
 CHAIN_ID = 392
 web3 = Web3(Web3.HTTPProvider(NEXUS_RPC))
 
